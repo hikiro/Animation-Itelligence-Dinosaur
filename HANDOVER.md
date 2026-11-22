@@ -122,3 +122,12 @@ Suggested opening message:
 ## 9. Backup integrity boundary
 
 This handover is a **reconstructed and reconciled project record**, not a verbatim export of every chat message. Media, ZIPs and original attachments must be checked in the GitHub repository individually; paths in this document are planned until verified in `BACKUP_MANIFEST.md`. GitHub storage is an explicit backup of uploaded content; it is not proof of animation quality or provenance clearance. Do not publish private tokens or third-party nonredistributable materials.
+
+
+## 10. Verified GitHub synchronization log
+
+The detailed backup operations and the next-chat zero-hunting checklist are preserved at:
+- [handoff/SESSION_SYNC_LOG_2026-11-23.md](handoff/SESSION_SYNC_LOG_2026-11-23.md)
+- [handoff/CONTINUATION_ACTIONS.md](handoff/CONTINUATION_ACTIONS.md)
+
+GitHub main branch was independently inspected after binary publication: 388 file blobs, untruncated recursive tree, releases V2–V8, 10 source-archive parts, MP4, story reference, QA evidence and 354 searchable knowledge texts present. Treat the versioned V8 ZIP as a frozen integrity snapshot, with this post-V8 operations log as the newer provenance record.

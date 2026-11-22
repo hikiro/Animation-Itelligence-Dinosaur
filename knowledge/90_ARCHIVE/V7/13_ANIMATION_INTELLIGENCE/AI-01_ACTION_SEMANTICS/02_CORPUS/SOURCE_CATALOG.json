@@ -1,0 +1,62 @@
+[
+  {
+    "id": "BBC-DOCTOR-WHO-2016",
+    "url": "https://downloads.bbc.co.uk/writersroom/scripts/Doctor-Who-S10-Ep1.pdf",
+    "title": "Steven Moffat, Doctor Who S10E1, BBC shooting script 2016",
+    "permission": "copyrighted; paraphrase analytical notes only"
+  },
+  {
+    "id": "BBC-RADIO-FORMAT",
+    "url": "https://downloads.bbc.co.uk/writersroom/scripts/bbcradioscene.pdf",
+    "title": "BBC Writersroom, BBC Radio Format: Scene Style",
+    "permission": "copyrighted; paraphrase analytical notes only"
+  },
+  {
+    "id": "BOURNEMOUTH-BOARDS",
+    "url": "https://animationarchive.bournemouth.ac.uk/wp-content/uploads/2023/12/OnceUponATimeInAnimation.pdf",
+    "title": "Bournemouth University, Once Upon a Time in Animation",
+    "permission": "copyrighted images; reference links only"
+  },
+  {
+    "id": "DISNEY-STORY",
+    "url": "https://www.disneyanimation.com/process/story/",
+    "title": "Walt Disney Animation Studios, Story process",
+    "permission": "copyrighted imagery; analysis only"
+  },
+  {
+    "id": "PIXAR-MUSEUM",
+    "url": "https://sciencebehindpixar.org/pipeline/story-and-art",
+    "title": "Science Behind Pixar, Story and Art",
+    "permission": "copyrighted imagery; analysis only"
+  },
+  {
+    "id": "BLENDER-SPRING",
+    "url": "https://studio.blender.org/blog/spring-spring-open-content-overview/",
+    "title": "Blender Studio, Spring Open Content Overview",
+    "permission": "license per individual project asset; asset access not assumed"
+  },
+  {
+    "id": "PIXAR-BOX",
+    "url": "https://www.khanacademy.org/computing/pixar/storytelling",
+    "title": "Pixar in a Box, The Art of Storytelling",
+    "permission": "web index only; video content not claimed"
+  },
+  {
+    "id": "SOS-SOUND",
+    "url": "https://www.soundonsound.com/techniques/sound-design-visual-media",
+    "title": "Sound on Sound, Sound Design for Visual Media",
+    "permission": "only excerpt accessible"
+  },
+  {
+    "id": "ADOBE-AE",
+    "url": "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/animation-basics/animation-basics.html",
+    "title": "Adobe, Animation Basics",
+    "permission": "technical guide, terminology"
+  },
+  {
+    "id": "STORYBOARDER",
+    "url": "https://wonderunit.com/software/storyboarder/",
+    "title": "Wonder Unit, Storyboarder",
+    "permission": "open-source software; examples separate licensing"
+  }
+]

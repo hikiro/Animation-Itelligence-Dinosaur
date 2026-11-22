@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Story structure reference record",
+  "type": "object",
+  "required": [
+    "id",
+    "source_kind",
+    "source_path_or_url",
+    "inspection_status",
+    "observed_claims",
+    "interpretation",
+    "applicable_contexts",
+    "countercontexts",
+    "evidence_level",
+    "unknowns",
+    "related_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_kind": {
+      "type": "string"
+    },
+    "source_path_or_url": {
+      "type": "string"
+    },
+    "inspection_status": {
+      "type": "string"
+    },
+    "evidence_level": {
+      "type": "string"
+    },
+    "observed_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "interpretation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "applicable_contexts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "countercontexts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

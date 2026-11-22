@@ -1,0 +1,35 @@
+{
+  "dataset_version": "AI-01-v1 2026-11-19",
+  "lexicon_entries": 1152,
+  "unique_lemmas": 1044,
+  "lexical_context_rows": 4608,
+  "action_scenarios": 208,
+  "source_observations": 18,
+  "ambiguity_readings": 120,
+  "context_profiles": [
+    "threat",
+    "comedy",
+    "wonder",
+    "tenderness"
+  ],
+  "total_records": 6146,
+  "status": "SOURCE_RESEARCH_AND_SYNTHETIC_DESIGN_NOT_PERFORMANCE_VERIFIED",
+  "no_copyrighted_source_text": true,
+  "annotation_method": "curated seed vocab and authored action hypotheses; structured synthetic context expansion; selected source observations paraphrased from directly inspected pages",
+  "user_story_lock": "DINO portal benchmark 270f NOT completed",
+  "context_dimensions": [
+    "dramatic_tone",
+    "actor_belief",
+    "actor_goal",
+    "viewer_knowledge",
+    "world_geometry",
+    "physical_style",
+    "sound_source",
+    "point_of_audition",
+    "language",
+    "shot_purpose"
+  ],
+  "source_observations_have_context_and_limits": true,
+  "evaluation_prompts": 40,
+  "evaluation_cases_are_unscored": true
+}

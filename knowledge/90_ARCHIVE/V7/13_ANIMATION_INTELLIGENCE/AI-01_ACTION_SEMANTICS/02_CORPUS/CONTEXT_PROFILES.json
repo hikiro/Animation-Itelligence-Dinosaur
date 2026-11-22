@@ -1,0 +1,38 @@
+{
+  "threat": {
+    "intent": "danger, loss of control, potential harm",
+    "perception": "Source and danger relationship must be perceived before flight.",
+    "acting": "Gaze locks on hazard; spine tightens; protective shift; retreat when justified.",
+    "camera": "Preserve geography; low-angle or shot/reverse-shot to show size; controlled withholding before reveal.",
+    "sound": "Close transient plus low-frequency body; ambience withdraws at recognition; source position retained.",
+    "edit": "Delay source reveal just enough to generate suspense, then show unambiguous cause.",
+    "risk": "Avoid horror-style shake that hides contact or makes timing incoherent."
+  },
+  "comedy": {
+    "intent": "surprise, contrast, embarrassment or harmless incongruity",
+    "perception": "Audience may discover the setup before character; pause makes joke readable.",
+    "acting": "Clear straight pose, short thought pause, contrasting exaggerated reaction, recover deliberately.",
+    "camera": "Locked wide or held composition preserves the setup and payoff in same geography.",
+    "sound": "Character-scale effect, comic tonal contrast and purposeful gap; do not overfill.",
+    "edit": "Hold slightly longer on mismatch; cut at payoff not at arbitrary motion.",
+    "risk": "Overacting and over-editing can hide the underlying gag."
+  },
+  "wonder": {
+    "intent": "discovery, amazement and curiosity",
+    "perception": "Reveal evidence progressively so audience shares discovery.",
+    "acting": "Eyes travel first; shoulders relax; cautiously approach with gentle weight shift.",
+    "camera": "Allow wide context followed by motivated reveal, slow follow or upward framing.",
+    "sound": "Subtle atmosphere and harmonics without falsely assigning an impossible source.",
+    "edit": "Permit observation and visual breath; do not cut before recognition.",
+    "risk": "Constant slow camera motion without subject-led attention is decorative."
+  },
+  "tenderness": {
+    "intent": "care, trust and emotional connection",
+    "perception": "Both participants must understand the offered contact or support.",
+    "acting": "Lower threat posture, soften hands/shoulders, wait for recipient acknowledgement.",
+    "camera": "Stable medium/two-shot; reaction close-ups only after contact geography is clear.",
+    "sound": "Close, restrained cloth/breath/material Foley; music makes room for tiny cues.",
+    "edit": "Hold contact and follow-through long enough for emotional change.",
+    "risk": "Do not imply touching or emotional bonding without actual contact/response."
+  }
+}

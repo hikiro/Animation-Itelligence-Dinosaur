@@ -1,0 +1,44 @@
+{
+  "portal_crossing": {
+    "file": "12_ACTION_INTELLIGENCE/EXPERIMENTS/portal_crossing_bad_vs_corrected.mp4",
+    "frames": 120,
+    "seconds": 4.0,
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "audio": "none",
+    "status": "RENDERED_DEMO_NOT_HUMAN_APPROVED"
+  },
+  "stomp_reaction": {
+    "file": "12_ACTION_INTELLIGENCE/EXPERIMENTS/stomp_reaction_bad_vs_corrected.mp4",
+    "frames": 120,
+    "seconds": 4.0,
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "audio": "original synthetic stomp",
+    "status": "RENDERED_DEMO_NOT_HUMAN_APPROVED"
+  },
+  "egg_catch": {
+    "file": "12_ACTION_INTELLIGENCE/EXPERIMENTS/egg_catch_bad_vs_corrected.mp4",
+    "frames": 120,
+    "seconds": 4.0,
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "audio": "none",
+    "status": "RENDERED_DEMO_NOT_HUMAN_APPROVED"
+  },
+  "test_sequence_notes": {
+    "portal": "Good: aperture centered at x=164 local; ground at y=457; character originates at x=160 inside opening and crosses near-rim plane.",
+    "stomp": "Good: contact f60; gaze/head after f63; body recoil f72; sound onset f60. Bad: shakes f28 before contact.",
+    "egg": "Good: trajectory continuous from nest f30 to hand f73; after f73 egg retracts with hands. Bad: instant position jump at f61.",
+    "limitation": "These are diagrammatic action tests; a rendered comparison does not prove character-art quality, inverse kinematics, or completed DINO benchmark."
+  }
+}

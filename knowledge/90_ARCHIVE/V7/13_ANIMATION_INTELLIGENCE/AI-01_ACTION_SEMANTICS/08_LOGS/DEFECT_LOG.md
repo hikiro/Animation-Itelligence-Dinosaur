@@ -1,0 +1,11 @@
+# AI-01 defects and open validation tasks
+
+| ID | Severity | Observation | Root cause | Correction/status | Next regression |
+|---|---|---|---|---|---|
+| AI01-D01 | Major | First original schematic storyboard approach accidentally depicted foot contact | Foot pad coordinates reused contact ground y in all panels | Corrected drawn position before release; manual image inspection repeated | Check first row airborne, row two contact; visually compare on every rerender |
+| AI01-D02 | Moderate | Early acting eye faced foot already during approach | Gaze selection defaulted toward right even before perception | Shifted pupil left before contact, right afterward; manual inspection repeated | Sequence must show reaction after contact unless explicitly prescient |
+| AI01-D03 | Major / OPEN | Four storyboard contexts mostly share camera composition | Schematic demonstration prioritized action difference | Label camera as untested; create shot-specific 3D/2.5D blocking and tests | Side-by-side shot framing and eye-trace comparison |
+| AI01-D04 | Major / OPEN | No independent audience or listening test for four contextual interpretations | No external raters or rendered motion/sound in this task | Status remains L2; no success claim | Blind emotion and causality comprehension tests with N documented |
+| AI01-D05 | Moderate / OPEN | 4,608 generated lexical-context records use four broad context templates | Corpus breadth faster than per-shot manual annotation | Explicit generator provenance; L2 only; future real annotated examples needed | Sample and manually adjudicate at least 100 context cases across groups |
+| AI01-D06 | Major / OPEN | Research sources are not complete matched script→board→animatic→final-shot triples | Many studio references are public overviews rather than asset-level archives | Do not pretend paired movie dataset exists; use verified accessible archive/permission | Source-level linked artifacts + timestamp/shot ID and rights |
+| AI01-D07 | Moderate / OPEN | Word forms include rare compounds and shorthand | Broad lexical candidate collection | Normalize language variants before real retrieval evaluation | Natural prompt retrieval recall benchmark, language coverage |

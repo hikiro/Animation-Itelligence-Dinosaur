@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "canonical_file": "REGISTER.csv",
+  "required_columns": [
+    "id",
+    "status",
+    "type",
+    "priority",
+    "requested_material",
+    "reason",
+    "known_evidence_path",
+    "access_attempt",
+    "user_can_provide",
+    "related_id",
+    "last_checked"
+  ],
+  "allowed_statuses": [
+    "NOT_PROVIDED",
+    "NOT_COLLECTED",
+    "NOT_VERIFIED",
+    "NOT_TESTED",
+    "NOT_PRODUCED",
+    "TOOL_NOT_VERIFIED",
+    "RIGHTS_REVIEW",
+    "ACCESS_FAILED",
+    "LINK_DEAD",
+    "PAYWALLED",
+    "UNREADABLE",
+    "RECEIVED",
+    "VERIFIED"
+  ],
+  "priority_order": [
+    "P0",
+    "P1",
+    "P2"
+  ]
+}

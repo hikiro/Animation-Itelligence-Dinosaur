@@ -1,0 +1,203 @@
+{
+  "skating": [
+    "foot slide",
+    "planted foot",
+    "stance lock",
+    "ground contact",
+    "gait"
+  ],
+  "floaty": [
+    "weight",
+    "mass",
+    "inertia",
+    "grounding",
+    "contact"
+  ],
+  "portal": [
+    "aperture",
+    "threshold",
+    "masking",
+    "occlusion",
+    "z-order",
+    "portal emergence"
+  ],
+  "stiff": [
+    "whole-body reaction",
+    "anticipation",
+    "secondary motion",
+    "acting"
+  ],
+  "jitter": [
+    "spacing",
+    "velocity",
+    "frame discontinuity",
+    "motion blur",
+    "cadence"
+  ],
+  "bad transition": [
+    "continuity",
+    "camera axis",
+    "match on action",
+    "geography"
+  ],
+  "sound feels wrong": [
+    "foley",
+    "sound perspective",
+    "motivation",
+    "masking",
+    "mix priority"
+  ],
+  "boring": [
+    "visual hierarchy",
+    "audience attention",
+    "rhythm",
+    "blocking"
+  ],
+  "slideshow": [
+    "staging",
+    "camera motivation",
+    "pose-to-pose",
+    "scene transition"
+  ],
+  "hallucination": [
+    "verification",
+    "evidence",
+    "status",
+    "agent recovery"
+  ],
+  "bullet": [
+    "projectile",
+    "recoil",
+    "impact",
+    "contact",
+    "travel",
+    "camera tracking",
+    "speed lines"
+  ],
+  "hit": [
+    "impact",
+    "collision",
+    "contact frame",
+    "force transfer",
+    "body recoil",
+    "reaction"
+  ],
+  "cinematic": [
+    "camera motivation",
+    "lens",
+    "tracking",
+    "shot size",
+    "audience attention",
+    "sound perspective",
+    "graphic style"
+  ],
+  "after effects": [
+    "ae expressions",
+    "solid",
+    "shape layers",
+    "nulls",
+    "parenting",
+    "keyframes",
+    "graph editor",
+    "track matte",
+    "puppet"
+  ],
+  "expression": [
+    "wiggle",
+    "ease",
+    "loopOut",
+    "valueAtTime",
+    "posterizeTime",
+    "control slider",
+    "per-property"
+  ],
+  "solids": [
+    "solid layer",
+    "adjustment layer",
+    "compositing",
+    "control map",
+    "background"
+  ],
+  "impact flash": [
+    "contact accent",
+    "opacity envelope",
+    "manga",
+    "impact",
+    "shake"
+  ],
+  "water effect": [
+    "underwater",
+    "wake",
+    "bubbles",
+    "refraction",
+    "displacement",
+    "water-like trail"
+  ],
+  "sway": [
+    "secondary motion",
+    "sinusoidal",
+    "overlap",
+    "rotation",
+    "rig"
+  ],
+  "make sense": [
+    "causal story",
+    "action completion",
+    "perception",
+    "stimulus",
+    "reaction",
+    "consequence"
+  ],
+  "slow fall": [
+    "time remap",
+    "gravity",
+    "body balance",
+    "recovery",
+    "stylized slow motion"
+  ],
+  "grab": [
+    "grasp",
+    "pick up",
+    "hand contact",
+    "object attachment",
+    "prop ownership"
+  ],
+  "emerge": [
+    "cross portal",
+    "threshold",
+    "occlusion",
+    "aperture",
+    "inside-outside"
+  ],
+  "reaction": [
+    "noticing",
+    "intention",
+    "gaze",
+    "stimulus",
+    "recoil"
+  ],
+  "camera feels random": [
+    "viewer attention",
+    "story context",
+    "reveal",
+    "screen direction"
+  ],
+  "stomp": [
+    "heavy footfall",
+    "ground contact",
+    "inertia",
+    "tail follow through"
+  ],
+  "falling": [
+    "center of mass",
+    "foot support",
+    "recovery step",
+    "landing"
+  ],
+  "scene reads": [
+    "causal storyboard",
+    "stimulus",
+    "action completion",
+    "evidence"
+  ]
+}

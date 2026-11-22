@@ -1,0 +1,3501 @@
+[
+  {
+    "id": "ACT-001",
+    "category": "Perception",
+    "slug": "notice-egg",
+    "utterance": "Make the human notice the egg",
+    "intent": "Make the viewer understand: the human notice the egg.",
+    "stimulus": "The speckled egg moves in the edge of the frame",
+    "perception": "Eyes turn toward its motion before the head",
+    "decision": "Decide whether it is in danger",
+    "anticipation": "Blink stops and the neck leads into a lean",
+    "action": "Eyes lock on egg; head follows; torso rotates slightly",
+    "consequence": "Body changes travel direction toward nest",
+    "camera": "Hold medium framing with both egg and eyes visible",
+    "audio": "Small rustle then egg roll; no dramatic score yet",
+    "failed_pattern": "Head rotates before the egg moves",
+    "repair_strategy": "Start eye direction only after observable egg movement",
+    "primary_channel": "headTurnDeg",
+    "rig": "eyes/head/neck/torso",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "headTurnDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: The speckled egg moves in the edge of the frame",
+      "Perception and decision visibly motivate action: Eyes turn toward its motion before the head; Decide whether it is in danger",
+      "Main event actually completed: Eyes lock on egg; head follows; torso rotates slightly",
+      "Aftermath visible: Body changes travel direction toward nest"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-002",
+    "category": "Perception",
+    "slug": "turn-toward-sound",
+    "utterance": "Make him hear something behind him",
+    "intent": "Make the viewer understand: him hear something behind him.",
+    "stimulus": "An offscreen thump reaches him",
+    "perception": "Ear/head attention shifts toward sonic source",
+    "decision": "Identify where sound came from",
+    "anticipation": "Foot freezes and shoulder lifts",
+    "action": "Eyes move left; head rotates; torso follows later",
+    "consequence": "Now faces the unseen source",
+    "camera": "Begin on his profile, retain screen geography of sound",
+    "audio": "Offscreen low thump can correctly lead reveal",
+    "failed_pattern": "Character reacts before thump without an intended premonition",
+    "repair_strategy": "Key perception after sound onset; let head follow ears",
+    "primary_channel": "headTurnDeg",
+    "rig": "head/shoulder/torso/eyes",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "headTurnDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: An offscreen thump reaches him",
+      "Perception and decision visibly motivate action: Ear/head attention shifts toward sonic source; Identify where sound came from",
+      "Main event actually completed: Eyes move left; head rotates; torso follows later",
+      "Aftermath visible: Now faces the unseen source"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-003",
+    "category": "Perception",
+    "slug": "scan-danger",
+    "utterance": "Have the character search the forest",
+    "intent": "Make the viewer understand: have the character search the forest.",
+    "stimulus": "Ambience suddenly becomes quieter",
+    "perception": "Notices gaps in known animal sounds",
+    "decision": "Search for a hidden threat",
+    "anticipation": "Pause gait and adjust balance",
+    "action": "Eye scan left-right; head catches up; step to clear obstruction",
+    "consequence": "Threat location becomes a plausible next reveal",
+    "camera": "Do not cut away during essential glance changes",
+    "audio": "Fade bird ambience then focused leaf rustle",
+    "failed_pattern": "Random head wiggle with no visual target",
+    "repair_strategy": "Assign three look targets tied to sound and scene geometry",
+    "primary_channel": "gazeX",
+    "rig": "eyes/head/neck/pelvis",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "gazeX": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Ambience suddenly becomes quieter",
+      "Perception and decision visibly motivate action: Notices gaps in known animal sounds; Search for a hidden threat",
+      "Main event actually completed: Eye scan left-right; head catches up; step to clear obstruction",
+      "Aftermath visible: Threat location becomes a plausible next reveal"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-004",
+    "category": "Perception",
+    "slug": "recognize-mother",
+    "utterance": "She realizes the egg belongs to her",
+    "intent": "Make the viewer understand: she realizes the egg belongs to her.",
+    "stimulus": "Mother finds nest empty then sees egg in human arms",
+    "perception": "Her gaze alternates between nest and egg",
+    "decision": "Conclude human has the baby",
+    "anticipation": "Body stiffens; nostrils widen",
+    "action": "Head lowers and body points toward egg",
+    "consequence": "Aggression becomes understandable",
+    "camera": "Over-shoulder or shared axis includes nest, egg, mother",
+    "audio": "One low breath rising toward roar",
+    "failed_pattern": "Instant anger before seeing empty nest or egg",
+    "repair_strategy": "Stage empty nest and egg eyeline before posture change",
+    "primary_channel": "headLowerPx",
+    "rig": "eyes/head/neck/hips/tail",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "headLowerPx": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Mother finds nest empty then sees egg in human arms",
+      "Perception and decision visibly motivate action: Her gaze alternates between nest and egg; Conclude human has the baby",
+      "Main event actually completed: Head lowers and body points toward egg",
+      "Aftermath visible: Aggression becomes understandable"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-005",
+    "category": "Perception",
+    "slug": "spot-hazard",
+    "utterance": "He sees the branch before ducking",
+    "intent": "Make the viewer understand: he sees the branch before ducking.",
+    "stimulus": "Low branch approaches on chase path",
+    "perception": "Eyes track branch and available clearance",
+    "decision": "Decide to lower his body",
+    "anticipation": "Quick head tuck and knee flex",
+    "action": "Torso folds; hips lower; feet maintain forward contact sequence",
+    "consequence": "Passes safely beneath branch",
+    "camera": "Keep branch edge and head in same shot",
+    "audio": "Wind rush ahead of nearest foliage brush",
+    "failed_pattern": "Character ducks before any branch is visible",
+    "repair_strategy": "Show obstacle well before avoidance beat",
+    "primary_channel": "torsoLowerPx",
+    "rig": "eyes/head/spine/hips/knees",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "torsoLowerPx": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Low branch approaches on chase path",
+      "Perception and decision visibly motivate action: Eyes track branch and available clearance; Decide to lower his body",
+      "Main event actually completed: Torso folds; hips lower; feet maintain forward contact sequence",
+      "Aftermath visible: Passes safely beneath branch"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-006",
+    "category": "Perception",
+    "slug": "change-mind",
+    "utterance": "He hesitates before deciding to rescue",
+    "intent": "Make the viewer understand: he hesitates before deciding to rescue.",
+    "stimulus": "Egg balances near ledge edge",
+    "perception": "Looks from egg to safe exit route",
+    "decision": "Chooses risky rescue",
+    "anticipation": "Weight rocks backward then forward",
+    "action": "Hand retracts briefly then reaches firmly",
+    "consequence": "Commitment has clear visible turning point",
+    "camera": "Hold stable composition during decision",
+    "audio": "Ambient detail drops; tiny egg scraping gains prominence",
+    "failed_pattern": "Linear reach with no hesitation despite scripted indecision",
+    "repair_strategy": "Insert separate opposing anticipation and commitment poses",
+    "primary_channel": "reachPx",
+    "rig": "hand/shoulder/hips/eyes",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 9,
+      "decision": 18,
+      "anticipation": 27,
+      "action": 39,
+      "consequence": 66,
+      "end": 90
+    },
+    "curves": {
+      "reachPx": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          39,
+          0.12
+        ],
+        [
+          66,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          66,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Egg balances near ledge edge",
+      "Perception and decision visibly motivate action: Looks from egg to safe exit route; Chooses risky rescue",
+      "Main event actually completed: Hand retracts briefly then reaches firmly",
+      "Aftermath visible: Commitment has clear visible turning point"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-007",
+    "category": "Locomotion",
+    "slug": "first-step",
+    "utterance": "Make the first step look grounded",
+    "intent": "Make the viewer understand: the first step look grounded.",
+    "stimulus": "Human has fully emerged from portal",
+    "perception": "Sees clear forest floor",
+    "decision": "Choose where to plant leading foot",
+    "anticipation": "Hips shift over current support",
+    "action": "Leading foot swings then plants; hips transfer onto it",
+    "consequence": "Trailing foot is released and body advances",
+    "camera": "Full figure and ground horizon in frame",
+    "audio": "Soft heel/sole contact on plant frame",
+    "failed_pattern": "Root slides at uniform speed while foot planted",
+    "repair_strategy": "Lock planted foot in world coordinates and solve knee",
+    "primary_channel": "rootX",
+    "rig": "hips/knee/ankle/foot IK",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "rootX": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human has fully emerged from portal",
+      "Perception and decision visibly motivate action: Sees clear forest floor; Choose where to plant leading foot",
+      "Main event actually completed: Leading foot swings then plants; hips transfer onto it",
+      "Aftermath visible: Trailing foot is released and body advances"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-008",
+    "category": "Locomotion",
+    "slug": "steady-walk",
+    "utterance": "Make the character walk naturally",
+    "intent": "Make the viewer understand: the character walk naturally.",
+    "stimulus": "Character sees desired destination",
+    "perception": "Eyes lead travel direction",
+    "decision": "Maintain controlled pace",
+    "anticipation": "Body leans by small angle",
+    "action": "Alternate stance and swing with independent support foot",
+    "consequence": "Head and arms overlap the stride",
+    "camera": "Side-on readable feet and floor",
+    "audio": "Footfalls at support transitions; footsteps vary slightly",
+    "failed_pattern": "Sinusoidal legs with no support lock",
+    "repair_strategy": "Use stride phase and world-space support anchors",
+    "primary_channel": "rootX",
+    "rig": "hips/leg IK/arms/head",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "rootX": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Character sees desired destination",
+      "Perception and decision visibly motivate action: Eyes lead travel direction; Maintain controlled pace",
+      "Main event actually completed: Alternate stance and swing with independent support foot",
+      "Aftermath visible: Head and arms overlap the stride"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-009",
+    "category": "Locomotion",
+    "slug": "panic-run",
+    "utterance": "Make the escape urgent",
+    "intent": "Make the viewer understand: the escape urgent.",
+    "stimulus": "Dinosaur finishes roar and leans toward human",
+    "perception": "Human sees the threat approach",
+    "decision": "Run away while protecting egg",
+    "anticipation": "Sharp pivot, compress and push off",
+    "action": "Root accelerates; feet alternate airborne and grounded phases",
+    "consequence": "Distance from threat briefly grows",
+    "camera": "Track both subjects long enough to read pursuit",
+    "audio": "Breath, faster footfalls, mother footsteps on separate stem",
+    "failed_pattern": "Root begins at full speed with still-facing character",
+    "repair_strategy": "Anticipation pose then accelerating trajectory and foot phase",
+    "primary_channel": "rootX",
+    "rig": "head/torso/hips/arms/feet",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "rootX": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Dinosaur finishes roar and leans toward human",
+      "Perception and decision visibly motivate action: Human sees the threat approach; Run away while protecting egg",
+      "Main event actually completed: Root accelerates; feet alternate airborne and grounded phases",
+      "Aftermath visible: Distance from threat briefly grows"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-010",
+    "category": "Locomotion",
+    "slug": "turn-around",
+    "utterance": "Make him turn before running",
+    "intent": "Make the viewer understand: him turn before running.",
+    "stimulus": "He notices danger behind him",
+    "perception": "Eyes swing toward escape route",
+    "decision": "Decide to reverse direction",
+    "anticipation": "Hips load supporting foot",
+    "action": "Eyes/head/shoulders/hips turn in sequence, feet pivot",
+    "consequence": "Exit direction becomes unambiguous",
+    "camera": "Keep screen direction constant and hold turn in shot",
+    "audio": "Shoe friction sound on pivot contact",
+    "failed_pattern": "Translate left while torso still faces right",
+    "repair_strategy": "Use staggered yaw/key poses followed by push off",
+    "primary_channel": "bodyAngleDeg",
+    "rig": "eyes/head/torso/hips/foot anchors",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "bodyAngleDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: He notices danger behind him",
+      "Perception and decision visibly motivate action: Eyes swing toward escape route; Decide to reverse direction",
+      "Main event actually completed: Eyes/head/shoulders/hips turn in sequence, feet pivot",
+      "Aftermath visible: Exit direction becomes unambiguous"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-011",
+    "category": "Locomotion",
+    "slug": "brake-heavy",
+    "utterance": "Make the dinosaur stop convincingly",
+    "intent": "Make the viewer understand: the dinosaur stop convincingly.",
+    "stimulus": "Baby chirp reaches mother mid-run",
+    "perception": "Eyes focus on newborn",
+    "decision": "Avoid stepping on it",
+    "anticipation": "Lower body, shorten stride, forelegs react",
+    "action": "Hips decelerate; planted foot skids briefly; tail keeps moving",
+    "consequence": "Dinosaur stops with visible mass and tail settle",
+    "camera": "Wider view retains feet and moving tail",
+    "audio": "Two heavy decelerating footfalls, tail whoosh then quiet",
+    "failed_pattern": "Instant zero velocity with frozen tail",
+    "repair_strategy": "Apply finite braking distance and delayed tail follow-through",
+    "primary_channel": "rootX",
+    "rig": "hips/feet/head/tail",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "rootX": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Baby chirp reaches mother mid-run",
+      "Perception and decision visibly motivate action: Eyes focus on newborn; Avoid stepping on it",
+      "Main event actually completed: Hips decelerate; planted foot skids briefly; tail keeps moving",
+      "Aftermath visible: Dinosaur stops with visible mass and tail settle"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-012",
+    "category": "Locomotion",
+    "slug": "stumble-recovery",
+    "utterance": "Make him nearly fall but recover",
+    "intent": "Make the viewer understand: him nearly fall but recover.",
+    "stimulus": "One shoe catches exposed root",
+    "perception": "Sees falling ground and egg at risk",
+    "decision": "Keep egg safe and restore balance",
+    "anticipation": "Arms clamp egg; torso pitches",
+    "action": "Recovery step lands ahead of tipping center of mass",
+    "consequence": "Body regains balance without dropping egg",
+    "camera": "Hold continuous medium-wide to show foot and hands",
+    "audio": "Scuff, gasp, heavy recovery step",
+    "failed_pattern": "Sudden spin or squash with no visible trip cause",
+    "repair_strategy": "Root contact first; move COM toward failure then plant recovery foot",
+    "primary_channel": "torsoTiltDeg",
+    "rig": "root/hips/feet/egg hands",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 8,
+      "decision": 16,
+      "anticipation": 25,
+      "action": 37,
+      "consequence": 73,
+      "end": 96
+    },
+    "curves": {
+      "torsoTiltDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          37,
+          0.12
+        ],
+        [
+          73,
+          1.0
+        ],
+        [
+          96,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          73,
+          0.5
+        ],
+        [
+          96,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 96,
+    "source_ids": [
+      "S45",
+      "S48"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: One shoe catches exposed root",
+      "Perception and decision visibly motivate action: Sees falling ground and egg at risk; Keep egg safe and restore balance",
+      "Main event actually completed: Recovery step lands ahead of tipping center of mass",
+      "Aftermath visible: Body regains balance without dropping egg"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-013",
+    "category": "Object",
+    "slug": "reach-and-grasp",
+    "utterance": "Make the egg pickup readable",
+    "intent": "Make the viewer understand: the egg pickup readable.",
+    "stimulus": "Human notices egg resting on ground",
+    "perception": "Gaze locks onto target position",
+    "decision": "Pick up without crushing it",
+    "anticipation": "Bend knees, open hands, align approach",
+    "action": "Hands reach egg and close after contact",
+    "consequence": "Egg becomes attached to two-hand prop anchor",
+    "camera": "Close enough to see contact, wide enough for posture",
+    "audio": "Cloth movement then light finger/shell contact",
+    "failed_pattern": "Egg jumps to hands before touch",
+    "repair_strategy": "Switch parent or hand constraint only at contact event",
+    "primary_channel": "handReachPx",
+    "rig": "shoulders/elbows/hands/prop anchor",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108,
+      "contact": 58
+    },
+    "curves": {
+      "handReachPx": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human notices egg resting on ground",
+      "Perception and decision visibly motivate action: Gaze locks onto target position; Pick up without crushing it",
+      "Main event actually completed: Hands reach egg and close after contact",
+      "Aftermath visible: Egg becomes attached to two-hand prop anchor"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-014",
+    "category": "Object",
+    "slug": "catch-falling",
+    "utterance": "Make him catch the falling egg",
+    "intent": "Make the viewer understand: him catch the falling egg.",
+    "stimulus": "Egg leaves nest under gravity",
+    "perception": "Eyes track its predicted fall",
+    "decision": "Intercept before ground contact",
+    "anticipation": "Knees load and arms extend",
+    "action": "Hands intercept moving egg, absorb momentum, retract",
+    "consequence": "Egg remains stable after capture",
+    "camera": "Hold egg trajectory and hands in same frame",
+    "audio": "Egg scrape, brief whoosh, contact muffled by hands",
+    "failed_pattern": "Egg disappears from air and reappears held",
+    "repair_strategy": "Intersect continuous paths and attach at shared contact frame",
+    "primary_channel": "propY",
+    "rig": "hands/elbows/root/egg",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108,
+      "contact": 58
+    },
+    "curves": {
+      "propY": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Egg leaves nest under gravity",
+      "Perception and decision visibly motivate action: Eyes track its predicted fall; Intercept before ground contact",
+      "Main event actually completed: Hands intercept moving egg, absorb momentum, retract",
+      "Aftermath visible: Egg remains stable after capture"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-015",
+    "category": "Object",
+    "slug": "carry-prop",
+    "utterance": "Keep egg attached during chase",
+    "intent": "Make the viewer understand: keep egg attached during chase.",
+    "stimulus": "Human has just caught egg",
+    "perception": "Checks that it is stable",
+    "decision": "Protect egg while running",
+    "anticipation": "Bring elbows close to ribs",
+    "action": "Arms counteract gait; egg stays in torso-relative cup",
+    "consequence": "Egg never clips torso or floats outside hands",
+    "camera": "Use frame including chest, hands, and escape path",
+    "audio": "Subtle shell/rubbing noise, no separate random thumps",
+    "failed_pattern": "Egg independently interpolates with its own X movement",
+    "repair_strategy": "Drive egg from established hand attachment transform",
+    "primary_channel": "eggAnchorX",
+    "rig": "torso/arm/hand/prop constraint",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108
+    },
+    "curves": {
+      "eggAnchorX": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human has just caught egg",
+      "Perception and decision visibly motivate action: Checks that it is stable; Protect egg while running",
+      "Main event actually completed: Arms counteract gait; egg stays in torso-relative cup",
+      "Aftermath visible: Egg never clips torso or floats outside hands"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-016",
+    "category": "Object",
+    "slug": "put-down",
+    "utterance": "Make him gently put the baby down",
+    "intent": "Make the viewer understand: him gently put the baby down.",
+    "stimulus": "Mother waits and baby wriggles",
+    "perception": "Human identifies safe landing spot",
+    "decision": "Set baby down safely",
+    "anticipation": "Crouch and align baby over ground",
+    "action": "Lower baby until feet contact; open hands after support",
+    "consequence": "Hands withdraw; baby stands independently",
+    "camera": "Avoid cut at release; feet must remain visible",
+    "audio": "Soft toe contact precedes cloth release sound",
+    "failed_pattern": "Baby teleports from hands to ground",
+    "repair_strategy": "Release ownership only after ground contact constraint is valid",
+    "primary_channel": "handHeightPx",
+    "rig": "root/hips/knees/hands/baby",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108,
+      "contact": 58
+    },
+    "curves": {
+      "handHeightPx": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Mother waits and baby wriggles",
+      "Perception and decision visibly motivate action: Human identifies safe landing spot; Set baby down safely",
+      "Main event actually completed: Lower baby until feet contact; open hands after support",
+      "Aftermath visible: Hands withdraw; baby stands independently"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-017",
+    "category": "Object",
+    "slug": "hand-over",
+    "utterance": "Pass an object from one character to another",
+    "intent": "Make the viewer understand: pass an object from one character to another.",
+    "stimulus": "Receiver reaches toward offered object",
+    "perception": "Both characters follow object with gaze",
+    "decision": "Perform coordinated transfer",
+    "anticipation": "Receiver opens hand; giver slows",
+    "action": "Receiver grips at overlap then giver releases",
+    "consequence": "Object remains continuously supported",
+    "camera": "Two-shot with hands sharing spatial region",
+    "audio": "Fabric and soft grip sounds at hand overlap",
+    "failed_pattern": "Object briefly floats between characters",
+    "repair_strategy": "Dual-grip interval then explicit ownership change",
+    "primary_channel": "propX",
+    "rig": "givers hand/receiver hand/prop anchors",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108,
+      "contact": 58
+    },
+    "curves": {
+      "propX": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Receiver reaches toward offered object",
+      "Perception and decision visibly motivate action: Both characters follow object with gaze; Perform coordinated transfer",
+      "Main event actually completed: Receiver grips at overlap then giver releases",
+      "Aftermath visible: Object remains continuously supported"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-018",
+    "category": "Object",
+    "slug": "push-door",
+    "utterance": "Make a door open when pushed",
+    "intent": "Make the viewer understand: a door open when pushed.",
+    "stimulus": "Closed door blocks character route",
+    "perception": "Eyes settle on handle and hinge",
+    "decision": "Open it with appropriate force",
+    "anticipation": "Feet brace and shoulder leans",
+    "action": "Hand contacts door; shoulder and arm push, door rotates at hinge",
+    "consequence": "Character steps through clear opening",
+    "camera": "Three-quarter shot demonstrates hinge axis",
+    "audio": "Latch click then hinge creak and footstep",
+    "failed_pattern": "Door swings before hand reaches it",
+    "repair_strategy": "Hinge angle driven only after visible hand force begins",
+    "primary_channel": "doorAngleDeg",
+    "rig": "feet/shoulder/hand/door hinge",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 19,
+      "anticipation": 28,
+      "action": 40,
+      "consequence": 76,
+      "end": 108,
+      "contact": 58
+    },
+    "curves": {
+      "doorAngleDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          40,
+          0.12
+        ],
+        [
+          76,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          76,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Closed door blocks character route",
+      "Perception and decision visibly motivate action: Eyes settle on handle and hinge; Open it with appropriate force",
+      "Main event actually completed: Hand contacts door; shoulder and arm push, door rotates at hinge",
+      "Aftermath visible: Character steps through clear opening"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-019",
+    "category": "Force",
+    "slug": "giant-stomp",
+    "utterance": "Make the dinosaur foot feel heavy",
+    "intent": "Make the viewer understand: the dinosaur foot feel heavy.",
+    "stimulus": "Mother lifts a foot over ground",
+    "perception": "Human sees moving shadow",
+    "decision": "Mother plants weight while progressing",
+    "anticipation": "Knee bends and body mass lowers",
+    "action": "Foot contacts ground and ground elements compress",
+    "consequence": "Torso and tail settle; leaves react a few frames later",
+    "camera": "Low angle framing reveals full contact and scale",
+    "audio": "Low-frequency impact plus leaf/rattle transients",
+    "failed_pattern": "Camera shakes before footfall without intentional J-cut",
+    "repair_strategy": "Tie peak impulse to contact frame and weight transfer",
+    "primary_channel": "footY",
+    "rig": "leg/foot/hips/tail/ground",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90,
+      "contact": 53
+    },
+    "curves": {
+      "footY": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Mother lifts a foot over ground",
+      "Perception and decision visibly motivate action: Human sees moving shadow; Mother plants weight while progressing",
+      "Main event actually completed: Foot contacts ground and ground elements compress",
+      "Aftermath visible: Torso and tail settle; leaves react a few frames later"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-020",
+    "category": "Force",
+    "slug": "recoil-shot",
+    "utterance": "Make the firing action physically legible",
+    "intent": "Make the viewer understand: the firing action physically legible.",
+    "stimulus": "Character voluntarily performs a stylized fictional firing action",
+    "perception": "Eyes align with prop and target",
+    "decision": "Commit to firing",
+    "anticipation": "Body braces; shoulder and arms stabilize",
+    "action": "Prop emits flash then arms, shoulders and torso recoil",
+    "consequence": "Balance adjusts and muzzle settles",
+    "camera": "Show source and recoil without obscuring action",
+    "audio": "Sharp fictional sound follows source event, then tail decay",
+    "failed_pattern": "Flash-only with static shooter",
+    "repair_strategy": "Trigger flash and whole-body recoil keyed from common event time",
+    "primary_channel": "torsoBackPx",
+    "rig": "hand/arm/shoulder/torso/hips",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90
+    },
+    "curves": {
+      "torsoBackPx": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Character voluntarily performs a stylized fictional firing action",
+      "Perception and decision visibly motivate action: Eyes align with prop and target; Commit to firing",
+      "Main event actually completed: Prop emits flash then arms, shoulders and torso recoil",
+      "Aftermath visible: Balance adjusts and muzzle settles"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-021",
+    "category": "Force",
+    "slug": "impact-body",
+    "utterance": "Make the hit clearly understandable",
+    "intent": "Make the viewer understand: the hit clearly understandable.",
+    "stimulus": "Moving object visibly reaches target",
+    "perception": "Target registers force at contact",
+    "decision": "Balance must respond",
+    "anticipation": "Body has braced or remains unaware as intended",
+    "action": "Contact compression; torso moves, limbs and head lag",
+    "consequence": "Body recoils or falls with follow-through",
+    "camera": "Show target contact clearly before close emphasis",
+    "audio": "Contact transient then clothes/grunt and lingering room tone",
+    "failed_pattern": "Random wiggle and flash without actual collision",
+    "repair_strategy": "Drive recoil by contact time, force direction and coordinated poses",
+    "primary_channel": "torsoDisplacePx",
+    "rig": "torso/hips/neck/limbs/ground",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90,
+      "contact": 53
+    },
+    "curves": {
+      "torsoDisplacePx": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Moving object visibly reaches target",
+      "Perception and decision visibly motivate action: Target registers force at contact; Balance must respond",
+      "Main event actually completed: Contact compression; torso moves, limbs and head lag",
+      "Aftermath visible: Body recoils or falls with follow-through"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-022",
+    "category": "Force",
+    "slug": "land-from-jump",
+    "utterance": "Make the jump landing have weight",
+    "intent": "Make the viewer understand: the jump landing have weight.",
+    "stimulus": "Character falls toward chosen landing spot",
+    "perception": "Feet orient toward contact plane",
+    "decision": "Absorb downward momentum",
+    "anticipation": "Knees begin extending toward floor",
+    "action": "Feet touch then knees/hips compress",
+    "consequence": "Torso settles; arms counterbalance and recover",
+    "camera": "Wide view with feet and landing plane",
+    "audio": "Foot impact at measured contact frame, small fabric tail",
+    "failed_pattern": "Instantly frozen pose at ground y",
+    "repair_strategy": "Vertical path intersects floor then compressed body pose",
+    "primary_channel": "hipDropPx",
+    "rig": "feet/knees/hips/arms",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90,
+      "contact": 53
+    },
+    "curves": {
+      "hipDropPx": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Character falls toward chosen landing spot",
+      "Perception and decision visibly motivate action: Feet orient toward contact plane; Absorb downward momentum",
+      "Main event actually completed: Feet touch then knees/hips compress",
+      "Aftermath visible: Torso settles; arms counterbalance and recover"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-023",
+    "category": "Force",
+    "slug": "shove-object",
+    "utterance": "Make him push a heavy boulder",
+    "intent": "Make the viewer understand: him push a heavy boulder.",
+    "stimulus": "Boulder blocks travel",
+    "perception": "Hands test surface and resistance",
+    "decision": "Commit more effort",
+    "anticipation": "Feet spread; torso leans; hands press",
+    "action": "Shoulders drive force and boulder begins moving after resistance",
+    "consequence": "Character follows moving mass slowly",
+    "camera": "Wide framing includes feet, contact and boulder",
+    "audio": "Stone scraping begins after applied force",
+    "failed_pattern": "Boulder glides away before character touches it",
+    "repair_strategy": "Constraint requires hand contact and push threshold",
+    "primary_channel": "objectX",
+    "rig": "feet/hips/arms/hands/object",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90
+    },
+    "curves": {
+      "objectX": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Boulder blocks travel",
+      "Perception and decision visibly motivate action: Hands test surface and resistance; Commit more effort",
+      "Main event actually completed: Shoulders drive force and boulder begins moving after resistance",
+      "Aftermath visible: Character follows moving mass slowly"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-024",
+    "category": "Force",
+    "slug": "crash-branch",
+    "utterance": "Make the dinosaur break the branch",
+    "intent": "Make the viewer understand: the dinosaur break the branch.",
+    "stimulus": "Branch lies across mother's pursuit path",
+    "perception": "She sees branch too late",
+    "decision": "Continue chase through the obstacle without stopping",
+    "anticipation": "Neck ducks imperfectly; shoulders drive forward",
+    "action": "Head/shoulder impacts branch; bending precedes snapping",
+    "consequence": "Pieces move outward with gravity and drag",
+    "camera": "Preserve recognizable branch and dinosaur contact point",
+    "audio": "Wood strain then sharp crack at fracture, leaves after",
+    "failed_pattern": "Branch explodes before dinosaur reaches it",
+    "repair_strategy": "Fracture only on predicted geometry contact and threshold",
+    "primary_channel": "branchDeflectionPx",
+    "rig": "head/neck/branch joints/fragments",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 10,
+      "decision": 17,
+      "anticipation": 25,
+      "action": 38,
+      "consequence": 69,
+      "end": 90,
+      "contact": 53
+    },
+    "curves": {
+      "branchDeflectionPx": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          38,
+          0.12
+        ],
+        [
+          69,
+          1.0
+        ],
+        [
+          90,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          69,
+          0.5
+        ],
+        [
+          90,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 90,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Branch lies across mother's pursuit path",
+      "Perception and decision visibly motivate action: She sees branch too late; Continue chase through the obstacle without stopping",
+      "Main event actually completed: Head/shoulder impacts branch; bending precedes snapping",
+      "Aftermath visible: Pieces move outward with gravity and drag"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-025",
+    "category": "Spatial",
+    "slug": "cross-portal",
+    "utterance": "Make the man genuinely emerge from a portal",
+    "intent": "Make the viewer understand: the man genuinely emerge from a portal.",
+    "stimulus": "Portal opens anchored at ground",
+    "perception": "Human looks out from inside the aperture",
+    "decision": "Step from interior into forest",
+    "anticipation": "Hand grips near rim, leading foot tests ground",
+    "action": "Head/torso/legs cross plane with masks and weight transfer",
+    "consequence": "Trailing foot exits; entire body outside and stable",
+    "camera": "Camera maintains aperture, threshold and planted foot",
+    "audio": "Portal hum swells as near/far sound perspective changes",
+    "failed_pattern": "Character slides in from offscreen in front of portal",
+    "repair_strategy": "Use portal interior mask + exterior character layers and crossing states",
+    "primary_channel": "crossingPct",
+    "rig": "portal aperture/front rim/rig/foot",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120,
+      "crossing_start": 42,
+      "crossing_complete": 85
+    },
+    "curves": {
+      "crossingPct": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Portal opens anchored at ground",
+      "Perception and decision visibly motivate action: Human looks out from inside the aperture; Step from interior into forest",
+      "Main event actually completed: Head/torso/legs cross plane with masks and weight transfer",
+      "Aftermath visible: Trailing foot exits; entire body outside and stable"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-026",
+    "category": "Spatial",
+    "slug": "duck-under",
+    "utterance": "Make ducking under a branch credible",
+    "intent": "Make the viewer understand: ducking under a branch credible.",
+    "stimulus": "Branch appears in path ahead",
+    "perception": "Eyes measure branch clearance",
+    "decision": "Choose to lower center of mass",
+    "anticipation": "Head tucks and knees flex",
+    "action": "Torso, hips and head move under obstacle while feet continue",
+    "consequence": "Character rises only once head clears",
+    "camera": "Hold enough profile for top of head and branch",
+    "audio": "Near-ear branch swish only at closest pass",
+    "failed_pattern": "Torso drops after head already intersects branch",
+    "repair_strategy": "Lower before collision and track clearance frame-by-frame",
+    "primary_channel": "headHeightPx",
+    "rig": "neck/hips/knees/branch",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120
+    },
+    "curves": {
+      "headHeightPx": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Branch appears in path ahead",
+      "Perception and decision visibly motivate action: Eyes measure branch clearance; Choose to lower center of mass",
+      "Main event actually completed: Torso, hips and head move under obstacle while feet continue",
+      "Aftermath visible: Character rises only once head clears"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-027",
+    "category": "Spatial",
+    "slug": "squeeze-gap",
+    "utterance": "Make the mother squeeze through a narrow opening",
+    "intent": "Make the viewer understand: the mother squeeze through a narrow opening.",
+    "stimulus": "Portal aperture is narrower than her snout",
+    "perception": "Mother tests rim with nose",
+    "decision": "Push through while portal yields",
+    "anticipation": "Neck draws back slightly",
+    "action": "Snout contacts rim; rim stretches; head advances",
+    "consequence": "Portal recoil trails departure of contact",
+    "camera": "Oblique framing shows rim shape around snout",
+    "audio": "Elastic hum and rim strain synchronized to deformation",
+    "failed_pattern": "Dinosaur materializes inside room with no threshold crossing",
+    "repair_strategy": "Drive rim deformation from signed penetration/contact",
+    "primary_channel": "portalScaleX",
+    "rig": "snout/head/portal mesh",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120
+    },
+    "curves": {
+      "portalScaleX": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Portal aperture is narrower than her snout",
+      "Perception and decision visibly motivate action: Mother tests rim with nose; Push through while portal yields",
+      "Main event actually completed: Snout contacts rim; rim stretches; head advances",
+      "Aftermath visible: Portal recoil trails departure of contact"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-028",
+    "category": "Spatial",
+    "slug": "break-through",
+    "utterance": "Make the crash through foliage readable",
+    "intent": "Make the viewer understand: the crash through foliage readable.",
+    "stimulus": "Dense fern screens the chase route",
+    "perception": "Dinosaur sees travel corridor through leaves",
+    "decision": "Keep advancing into the obstructing foliage",
+    "anticipation": "Head pushes foliage ahead of torso",
+    "action": "Leaves bend before tearing, then separate and fall",
+    "consequence": "Branch and leaves retain momentum after passage",
+    "camera": "Do not hide every contact with particles",
+    "audio": "Layered leaf rustle, tearing, delayed falling leaves",
+    "failed_pattern": "Decorative green particles appear before foliage touched",
+    "repair_strategy": "Simulate progressive contact response then fragment release",
+    "primary_channel": "foliageDeflectionPx",
+    "rig": "foliage joints/body collider",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120
+    },
+    "curves": {
+      "foliageDeflectionPx": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Dense fern screens the chase route",
+      "Perception and decision visibly motivate action: Dinosaur sees travel corridor through leaves; Keep advancing into the obstructing foliage",
+      "Main event actually completed: Leaves bend before tearing, then separate and fall",
+      "Aftermath visible: Branch and leaves retain momentum after passage"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-029",
+    "category": "Spatial",
+    "slug": "enter-room",
+    "utterance": "Make arrival in apartment geographically coherent",
+    "intent": "Make the viewer understand: arrival in apartment geographically coherent.",
+    "stimulus": "Portal connects prehistoric forest to apartment",
+    "perception": "Human sees a floor immediately beyond rim",
+    "decision": "Move into new environment",
+    "anticipation": "Leading foot tests carpet",
+    "action": "Body crosses plane; contact surface/material changes",
+    "consequence": "Footstep texture changes and apartment reverb appears",
+    "camera": "Match screen direction through plane or clearly re-establish",
+    "audio": "Cross-portal ambience and carpet foot sound with perspective",
+    "failed_pattern": "New room starts with character already fully in it",
+    "repair_strategy": "Match portal world transform and mask over cut",
+    "primary_channel": "crossingPct",
+    "rig": "portal/human/camera/floor",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120,
+      "crossing_start": 42,
+      "crossing_complete": 85
+    },
+    "curves": {
+      "crossingPct": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Portal connects prehistoric forest to apartment",
+      "Perception and decision visibly motivate action: Human sees a floor immediately beyond rim; Move into new environment",
+      "Main event actually completed: Body crosses plane; contact surface/material changes",
+      "Aftermath visible: Footstep texture changes and apartment reverb appears"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-030",
+    "category": "Spatial",
+    "slug": "leap-gap",
+    "utterance": "Make a gap jump visually plausible",
+    "intent": "Make the viewer understand: a gap jump visually plausible.",
+    "stimulus": "Character sees missing ground ahead",
+    "perception": "Eyes estimate landing zone",
+    "decision": "Choose jump instead of stopping",
+    "anticipation": "Knees compress and arms swing back",
+    "action": "Takeoff occurs at edge, airborne arc crosses gap",
+    "consequence": "Landing contacts far side and absorbs momentum",
+    "camera": "Wide shot shows both edges and full trajectory",
+    "audio": "Takeoff scrape, airborne quiet, landing thump",
+    "failed_pattern": "Character teleports over gap with linear root X and constant Y",
+    "repair_strategy": "Define takeoff/contact frames and continuous ballistic-like arc",
+    "primary_channel": "rootY",
+    "rig": "legs/hips/arms/root",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 20,
+      "anticipation": 30,
+      "action": 42,
+      "consequence": 85,
+      "end": 120
+    },
+    "curves": {
+      "rootY": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          42,
+          0.12
+        ],
+        [
+          85,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          85,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S47"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Character sees missing ground ahead",
+      "Perception and decision visibly motivate action: Eyes estimate landing zone; Choose jump instead of stopping",
+      "Main event actually completed: Takeoff occurs at edge, airborne arc crosses gap",
+      "Aftermath visible: Landing contacts far side and absorbs momentum"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-031",
+    "category": "Emotion",
+    "slug": "hesitation",
+    "utterance": "Make the character hesitate before acting",
+    "intent": "Make the viewer understand: the character hesitate before acting.",
+    "stimulus": "An uncertain obstacle threatens success",
+    "perception": "Looks at obstacle then possible exit",
+    "decision": "Weigh competing actions",
+    "anticipation": "Small backward weight shift and incomplete reach",
+    "action": "First movement aborts, brief hold, second committed gesture",
+    "consequence": "Decision becomes visible through contrast",
+    "camera": "Keep medium composition stable to read micro-actions",
+    "audio": "Small breath and pause; avoid excessive stinger",
+    "failed_pattern": "Uniform slow movement called hesitation",
+    "repair_strategy": "Distinct blocked attempt, pause and committed pose",
+    "primary_channel": "handReachPx",
+    "rig": "eyes/shoulders/hand/feet",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "handReachPx": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: An uncertain obstacle threatens success",
+      "Perception and decision visibly motivate action: Looks at obstacle then possible exit; Weigh competing actions",
+      "Main event actually completed: First movement aborts, brief hold, second committed gesture",
+      "Aftermath visible: Decision becomes visible through contrast"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-032",
+    "category": "Emotion",
+    "slug": "fear",
+    "utterance": "Show fear without cartoon jitter",
+    "intent": "Make the viewer understand: show fear without cartoon jitter.",
+    "stimulus": "A huge dinosaur lowers head toward human",
+    "perception": "Human notices threatening gaze and jaw",
+    "decision": "Protect egg and seek exit",
+    "anticipation": "Breath catch; neck retracts; shoulders rise",
+    "action": "Recoil and protective posture, then pivot",
+    "consequence": "Fear visibly changes goal and locomotion",
+    "camera": "Maintain threat and human in eyeline sequence",
+    "audio": "Low breath, reduced ambience, sharp inhale",
+    "failed_pattern": "Whole-body random wiggle before threat becomes known",
+    "repair_strategy": "Trigger reaction from recognition then coordinated protective posing",
+    "primary_channel": "torsoBackPx",
+    "rig": "eyes/neck/shoulders/hips/prop",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "torsoBackPx": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: A huge dinosaur lowers head toward human",
+      "Perception and decision visibly motivate action: Human notices threatening gaze and jaw; Protect egg and seek exit",
+      "Main event actually completed: Recoil and protective posture, then pivot",
+      "Aftermath visible: Fear visibly changes goal and locomotion"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-033",
+    "category": "Emotion",
+    "slug": "curiosity",
+    "utterance": "Make him curious about the new world",
+    "intent": "Make the viewer understand: him curious about the new world.",
+    "stimulus": "Human emerges into unfamiliar forest",
+    "perception": "Looks at enormous leaves above",
+    "decision": "Investigate cautiously",
+    "anticipation": "Lean forward while keeping planted foot",
+    "action": "Eyes rise, head tilts, hand reaches toward leaf",
+    "consequence": "Discovering motivates next movement",
+    "camera": "Hold revealing foreground plant in shared frame",
+    "audio": "Gentle leaves and quiet interested breath",
+    "failed_pattern": "Random tilt without visible subject",
+    "repair_strategy": "Anchor every glance and reach to a plant or sound",
+    "primary_channel": "headTiltDeg",
+    "rig": "eyes/head/neck/arm",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "headTiltDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human emerges into unfamiliar forest",
+      "Perception and decision visibly motivate action: Looks at enormous leaves above; Investigate cautiously",
+      "Main event actually completed: Eyes rise, head tilts, hand reaches toward leaf",
+      "Aftermath visible: Discovering motivates next movement"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-034",
+    "category": "Emotion",
+    "slug": "relief",
+    "utterance": "Make the relief after the chase feel earned",
+    "intent": "Make the viewer understand: the relief after the chase feel earned.",
+    "stimulus": "Mother nuzzles newborn instead of threatening",
+    "perception": "Human verifies she is calm",
+    "decision": "Release protective tension",
+    "anticipation": "Chest holds breath then softens",
+    "action": "Shoulders lower, grip relaxes, knees unlock",
+    "consequence": "Human smiles and regains normal posture",
+    "camera": "Move to less compressed medium framing only after recognition",
+    "audio": "Music opens after safe nuzzle; exhale prominent",
+    "failed_pattern": "Instant smile at first appearance of baby despite danger",
+    "repair_strategy": "Make mother-behavior verification precede relaxation",
+    "primary_channel": "shoulderDropPx",
+    "rig": "eyes/shoulders/arms/hips",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "shoulderDropPx": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Mother nuzzles newborn instead of threatening",
+      "Perception and decision visibly motivate action: Human verifies she is calm; Release protective tension",
+      "Main event actually completed: Shoulders lower, grip relaxes, knees unlock",
+      "Aftermath visible: Human smiles and regains normal posture"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-035",
+    "category": "Emotion",
+    "slug": "affection",
+    "utterance": "Make mother and baby contact tender",
+    "intent": "Make the viewer understand: mother and baby contact tender.",
+    "stimulus": "Baby reaches mother's lowered muzzle",
+    "perception": "Both make eye contact and orient toward each other",
+    "decision": "Reunite and soothe",
+    "anticipation": "Mother slows head approach; baby leans up",
+    "action": "Gentle nose-to-head contact; subtle compression",
+    "consequence": "Mother raises head slightly; baby follows with gaze",
+    "camera": "Sustain readable two-shot and silence",
+    "audio": "Quiet chirp, warm breath, restrained chord after contact",
+    "failed_pattern": "Faces touch only because both sprites overlap with no anticipation",
+    "repair_strategy": "Establish attention, approach speed, contact deformation and recovery",
+    "primary_channel": "headLowerPx",
+    "rig": "mother head/baby head/neck/ground",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "headLowerPx": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Baby reaches mother's lowered muzzle",
+      "Perception and decision visibly motivate action: Both make eye contact and orient toward each other; Reunite and soothe",
+      "Main event actually completed: Gentle nose-to-head contact; subtle compression",
+      "Aftermath visible: Mother raises head slightly; baby follows with gaze"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-036",
+    "category": "Emotion",
+    "slug": "comic-surprise",
+    "utterance": "Make a funny delayed reaction",
+    "intent": "Make the viewer understand: a funny delayed reaction.",
+    "stimulus": "Unexpected giant snout begins stretching portal",
+    "perception": "Human perceives odd shadow and hears creak",
+    "decision": "Slowly realize what is happening",
+    "anticipation": "Character stays still for one beat, eyes shift",
+    "action": "Head turns slowly, then body springs in exaggerated shock",
+    "consequence": "Pause after reveal lets joke land",
+    "camera": "Keep snout offscreen long enough to earn reveal",
+    "audio": "Creak then intentionally awkward silence and short accent",
+    "failed_pattern": "Random instant scream before audience sees the snout",
+    "repair_strategy": "Set up sightline, delayed recognition, decisive reaction and hold",
+    "primary_channel": "headTurnDeg",
+    "rig": "eyes/head/shoulders/hips",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 14,
+      "decision": 24,
+      "anticipation": 34,
+      "action": 46,
+      "consequence": 78,
+      "end": 108
+    },
+    "curves": {
+      "headTurnDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          46,
+          0.12
+        ],
+        [
+          78,
+          1.0
+        ],
+        [
+          108,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          78,
+          0.5
+        ],
+        [
+          108,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 108,
+    "source_ids": [
+      "S45",
+      "S46"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Unexpected giant snout begins stretching portal",
+      "Perception and decision visibly motivate action: Human perceives odd shadow and hears creak; Slowly realize what is happening",
+      "Main event actually completed: Head turns slowly, then body springs in exaggerated shock",
+      "Aftermath visible: Pause after reveal lets joke land"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-037",
+    "category": "Cinema",
+    "slug": "track-chase",
+    "utterance": "Make the chase easy to follow",
+    "intent": "Make the viewer understand: the chase easy to follow.",
+    "stimulus": "Human runs left and dinosaur follows from right",
+    "perception": "Audience must track decreasing gap",
+    "decision": "Maintain both subjects spatially legible",
+    "anticipation": "Start tracking after running speed is established",
+    "action": "Camera moves to retain positions while foreground parallax passes",
+    "consequence": "Dinosaur closing distance is measurable",
+    "camera": "Side tracking, ground horizon and direction locked",
+    "audio": "Independent footfalls and whoosh anchored to camera perspective",
+    "failed_pattern": "Camera crosses axis and swaps predator/prey sides accidentally",
+    "repair_strategy": "Define chase axis and camera path preserving screen direction",
+    "primary_channel": "cameraX",
+    "rig": "camera root/environment layers",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "cameraX": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human runs left and dinosaur follows from right",
+      "Perception and decision visibly motivate action: Audience must track decreasing gap; Maintain both subjects spatially legible",
+      "Main event actually completed: Camera moves to retain positions while foreground parallax passes",
+      "Aftermath visible: Dinosaur closing distance is measurable"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-038",
+    "category": "Cinema",
+    "slug": "reveal-threat",
+    "utterance": "Reveal the dinosaur's size dramatically",
+    "intent": "Make the viewer understand: reveal the dinosaur's size dramatically.",
+    "stimulus": "Ground begins vibrating before creature appears",
+    "perception": "Audience hears offscreen footsteps and sees human reaction",
+    "decision": "Build anticipation before identification",
+    "anticipation": "Hold lower portion of frame with shadow and foot",
+    "action": "Tilt or reframe from foot to massive head",
+    "consequence": "Character scale is established in shared geography",
+    "camera": "Begin low, let human remain a size reference",
+    "audio": "Low footfalls can intentionally precede visual reveal",
+    "failed_pattern": "Immediate face close-up removes size information",
+    "repair_strategy": "Reveal scale by connected view foot→body→head",
+    "primary_channel": "cameraTiltDeg",
+    "rig": "camera/ground/shadow/dinosaur",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "cameraTiltDeg": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Ground begins vibrating before creature appears",
+      "Perception and decision visibly motivate action: Audience hears offscreen footsteps and sees human reaction; Build anticipation before identification",
+      "Main event actually completed: Tilt or reframe from foot to massive head",
+      "Aftermath visible: Character scale is established in shared geography"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-039",
+    "category": "Cinema",
+    "slug": "emphasize-detail",
+    "utterance": "Give the cracking egg cinematic importance",
+    "intent": "Make the viewer understand: give the cracking egg cinematic importance.",
+    "stimulus": "Egg produces first quiet crack amid noisy chase",
+    "perception": "Human hears a small unexpected sound",
+    "decision": "Direct viewer to source without losing geography",
+    "anticipation": "Brief hold and human glance",
+    "action": "Camera gently pushes to shell crack after hand/egg visibility",
+    "consequence": "Crack becomes new center of attention",
+    "camera": "Push-in motivated by recognition, return to wider shot",
+    "audio": "Duck music so shell transient is audible",
+    "failed_pattern": "Random dramatic zoom unrelated to what characters see",
+    "repair_strategy": "Begin after eye contact establishes source, preserve orientation",
+    "primary_channel": "cameraScale",
+    "rig": "camera/human hands/egg",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "cameraScale": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Egg produces first quiet crack amid noisy chase",
+      "Perception and decision visibly motivate action: Human hears a small unexpected sound; Direct viewer to source without losing geography",
+      "Main event actually completed: Camera gently pushes to shell crack after hand/egg visibility",
+      "Aftermath visible: Crack becomes new center of attention"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-040",
+    "category": "Cinema",
+    "slug": "match-action",
+    "utterance": "Cut between views without teleporting",
+    "intent": "Make the viewer understand: cut between views without teleporting.",
+    "stimulus": "Human begins lifting baby in wide shot",
+    "perception": "Audience recognizes start of lift",
+    "decision": "Show hand contact close, then return wide",
+    "anticipation": "Hand approaches, cut on continuous movement",
+    "action": "New shot continues same hand/egg positions and phase",
+    "consequence": "Object geography remains consistent over cut",
+    "camera": "Match hand vector/axis, not just any position",
+    "audio": "Maintain one continuous Foley trajectory across cut",
+    "failed_pattern": "Hands reset to old position after cut",
+    "repair_strategy": "Record world state at edit and reconstruct new camera pose",
+    "primary_channel": "handY",
+    "rig": "camera/hand/baby",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "handY": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Human begins lifting baby in wide shot",
+      "Perception and decision visibly motivate action: Audience recognizes start of lift; Show hand contact close, then return wide",
+      "Main event actually completed: New shot continues same hand/egg positions and phase",
+      "Aftermath visible: Object geography remains consistent over cut"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-041",
+    "category": "Cinema",
+    "slug": "sound-bridge",
+    "utterance": "Use sound to lead the next revelation",
+    "intent": "Make the viewer understand: use sound to lead the next revelation.",
+    "stimulus": "Mother footfall happens outside camera frame",
+    "perception": "Human hears source while camera stays with him",
+    "decision": "Allow audience to anticipate danger",
+    "anticipation": "Hold reaction shot longer before cut",
+    "action": "Offscreen effect begins as spatial cue; camera reveal follows",
+    "consequence": "Sound is justified when mother becomes visible",
+    "camera": "Hold first shot, reveal source in next",
+    "audio": "J-cut is intentional; label offscreen origin in cue sheet",
+    "failed_pattern": "All audio early labelled error or disconnected thump",
+    "repair_strategy": "Define emitter position and audible event before picture reveal",
+    "primary_channel": "soundGain",
+    "rig": "audio emitter/camera/gaze",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "soundGain": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: Mother footfall happens outside camera frame",
+      "Perception and decision visibly motivate action: Human hears source while camera stays with him; Allow audience to anticipate danger",
+      "Main event actually completed: Offscreen effect begins as spatial cue; camera reveal follows",
+      "Aftermath visible: Sound is justified when mother becomes visible"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  },
+  {
+    "id": "ACT-042",
+    "category": "Cinema",
+    "slug": "silence-payoff",
+    "utterance": "Make the baby reveal emotionally powerful",
+    "intent": "Make the viewer understand: the baby reveal emotionally powerful.",
+    "stimulus": "First hatch chirp cuts through chase chaos",
+    "perception": "Human and dinosaur both notice",
+    "decision": "Direct attention to newborn",
+    "anticipation": "Music and effects reduce before baby appears",
+    "action": "Hold baby emergence with minimal score then gentle return",
+    "consequence": "Emotional reversal becomes audible and visible",
+    "camera": "Stable two-shot then close detail only if needed",
+    "audio": "Short audible void/duck, intimate chirp, softer ambience",
+    "failed_pattern": "Constant loud music masks the tiny hatch",
+    "repair_strategy": "Sidechain/automation of score around baby chirp event",
+    "primary_channel": "musicGain",
+    "rig": "audio mixer/camera/egg/baby",
+    "phase_frames": {
+      "stimulus": 0,
+      "perception": 12,
+      "decision": 23,
+      "anticipation": 31,
+      "action": 45,
+      "consequence": 83,
+      "end": 120
+    },
+    "curves": {
+      "musicGain": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          45,
+          0.12
+        ],
+        [
+          83,
+          1.0
+        ],
+        [
+          120,
+          1.0
+        ]
+      ],
+      "secondaryOverlap": [
+        [
+          0,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          83,
+          0.5
+        ],
+        [
+          120,
+          1.0
+        ]
+      ]
+    },
+    "duration_frames": 120,
+    "source_ids": [
+      "S46",
+      "S49"
+    ],
+    "status": "PROPOSED_RECIPE_NOT_RENDER_VERIFIED",
+    "qa_expected": [
+      "Stimulus visible or intentionally audible: First hatch chirp cuts through chase chaos",
+      "Perception and decision visibly motivate action: Human and dinosaur both notice; Direct attention to newborn",
+      "Main event actually completed: Hold baby emergence with minimal score then gentle return",
+      "Aftermath visible: Emotional reversal becomes audible and visible"
+    ],
+    "ambiguity": "Decide realism versus style and audience viewpoint before adding graphics, blur, or speed ramps."
+  }
+]

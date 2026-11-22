@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "required": [
+    "id",
+    "category",
+    "title",
+    "goal",
+    "scene_context",
+    "event_graph",
+    "rig",
+    "camera",
+    "audio",
+    "failure",
+    "tests",
+    "evidence",
+    "variants",
+    "state"
+  ],
+  "evidence_stages": [
+    "designed_unverified",
+    "technical_tested",
+    "render_inspected",
+    "production_approved",
+    "rejected",
+    "superseded"
+  ],
+  "context_required": [
+    "actor",
+    "body_plan",
+    "scale",
+    "goal",
+    "emotion",
+    "audience_knowledge",
+    "style",
+    "environment",
+    "sound_source",
+    "preceding_beat",
+    "following_beat"
+  ],
+  "constraints": "Source backing for general technique must not be conflated with individual preset validation."
+}

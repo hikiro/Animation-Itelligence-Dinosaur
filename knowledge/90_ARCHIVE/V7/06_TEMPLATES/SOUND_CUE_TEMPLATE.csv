@@ -1,0 +1,3 @@
+cue_id,scene_id,shot_id,linked_event_id,sync_class,start_frame,end_frame,source_description,story_purpose,listener_pov,world_position,distance_treatment,stem,priority,source_asset,license,verification_status
+EXAMPLE_S01_FOOT,S01,A01,human_lead_foot_contact,CONTACT_LOCKED,,,Footstep on grass,Prove physical ground contact,Objective near,,,FOLEY_HUMAN,PRIMARY,,,PLANNED_NOT_RENDERED
+EXAMPLE_S02_THUD,S02,A02,mother_distant_step,LEAD_INTENTIONAL,,,Offscreen heavy footstep,Threat cause and foreshadowing,Audience ahead of human,EAST,Distant/darker,FOLEY_DINO,SUPPORT,,,PLANNED_NOT_RENDERED

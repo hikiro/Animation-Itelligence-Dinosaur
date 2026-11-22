@@ -1,0 +1,20 @@
+{
+  "schema_description": "EXAMPLE ONLY, not a rendered event record",
+  "project": "DINO_DISASTER_WRONG_EXIT",
+  "fps": 30,
+  "source_scene": "S01",
+  "event_id": "human_lead_foot_contact",
+  "frame": null,
+  "seconds": null,
+  "verification_status": "PLANNED_NOT_RENDERED",
+  "actor_id": "human",
+  "event_type": "ground_contact",
+  "portal_crossing_state": "PARTIAL",
+  "world_position": null,
+  "floor_contact_normal": null,
+  "force_level": null,
+  "audio_sync_class": "CONTACT_LOCKED",
+  "camera_shot": "A01",
+  "source_render_path": null,
+  "qa_evidence_path": null
+}

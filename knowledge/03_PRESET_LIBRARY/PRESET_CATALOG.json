@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "PRE-0001",
+    "title": "Make the human notice the egg",
+    "category": "Perception",
+    "slug": "notice-egg",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0001_notice-egg.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "notice egg",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0002",
+    "title": "Make him hear something behind him",
+    "category": "Perception",
+    "slug": "turn-toward-sound",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0002_turn-toward-sound.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "turn toward sound",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0003",
+    "title": "Have the character search the forest",
+    "category": "Perception",
+    "slug": "scan-danger",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0003_scan-danger.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "scan danger",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0004",
+    "title": "She realizes the egg belongs to her",
+    "category": "Perception",
+    "slug": "recognize-mother",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0004_recognize-mother.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "recognize mother",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0005",
+    "title": "He sees the branch before ducking",
+    "category": "Perception",
+    "slug": "spot-hazard",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0005_spot-hazard.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "spot hazard",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0006",
+    "title": "He hesitates before deciding to rescue",
+    "category": "Perception",
+    "slug": "change-mind",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0006_change-mind.md",
+    "status": "designed_unverified",
+    "tags": [
+      "perception",
+      "change mind",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0007",
+    "title": "Make the first step look grounded",
+    "category": "Locomotion",
+    "slug": "first-step",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0007_first-step.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "first step",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0008",
+    "title": "Make the character walk naturally",
+    "category": "Locomotion",
+    "slug": "steady-walk",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0008_steady-walk.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "steady walk",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0009",
+    "title": "Make the escape urgent",
+    "category": "Locomotion",
+    "slug": "panic-run",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0009_panic-run.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "panic run",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0010",
+    "title": "Make him turn before running",
+    "category": "Locomotion",
+    "slug": "turn-around",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0010_turn-around.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "turn around",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0011",
+    "title": "Make the dinosaur stop convincingly",
+    "category": "Locomotion",
+    "slug": "brake-heavy",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0011_brake-heavy.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "brake heavy",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0012",
+    "title": "Make him nearly fall but recover",
+    "category": "Locomotion",
+    "slug": "stumble-recovery",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0012_stumble-recovery.md",
+    "status": "designed_unverified",
+    "tags": [
+      "locomotion",
+      "stumble recovery",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0013",
+    "title": "Make the egg pickup readable",
+    "category": "Object",
+    "slug": "reach-and-grasp",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0013_reach-and-grasp.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "reach and grasp",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0014",
+    "title": "Make him catch the falling egg",
+    "category": "Object",
+    "slug": "catch-falling",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0014_catch-falling.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "catch falling",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0015",
+    "title": "Keep egg attached during chase",
+    "category": "Object",
+    "slug": "carry-prop",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0015_carry-prop.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "carry prop",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0016",
+    "title": "Make him gently put the baby down",
+    "category": "Object",
+    "slug": "put-down",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0016_put-down.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "put down",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0017",
+    "title": "Pass an object from one character to another",
+    "category": "Object",
+    "slug": "hand-over",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0017_hand-over.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "hand over",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0018",
+    "title": "Make a door open when pushed",
+    "category": "Object",
+    "slug": "push-door",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0018_push-door.md",
+    "status": "designed_unverified",
+    "tags": [
+      "object",
+      "push door",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0019",
+    "title": "Make the dinosaur foot feel heavy",
+    "category": "Force",
+    "slug": "giant-stomp",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0019_giant-stomp.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "giant stomp",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0020",
+    "title": "Make the firing action physically legible",
+    "category": "Force",
+    "slug": "recoil-shot",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0020_recoil-shot.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "recoil shot",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0021",
+    "title": "Make the hit clearly understandable",
+    "category": "Force",
+    "slug": "impact-body",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0021_impact-body.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "impact body",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0022",
+    "title": "Make the jump landing have weight",
+    "category": "Force",
+    "slug": "land-from-jump",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0022_land-from-jump.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "land from jump",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0023",
+    "title": "Make him push a heavy boulder",
+    "category": "Force",
+    "slug": "shove-object",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0023_shove-object.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "shove object",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0024",
+    "title": "Make the dinosaur break the branch",
+    "category": "Force",
+    "slug": "crash-branch",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0024_crash-branch.md",
+    "status": "designed_unverified",
+    "tags": [
+      "force",
+      "crash branch",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0025",
+    "title": "Make the man genuinely emerge from a portal",
+    "category": "Spatial",
+    "slug": "cross-portal",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0025_cross-portal.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "cross portal",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0026",
+    "title": "Make ducking under a branch credible",
+    "category": "Spatial",
+    "slug": "duck-under",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0026_duck-under.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "duck under",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0027",
+    "title": "Make the mother squeeze through a narrow opening",
+    "category": "Spatial",
+    "slug": "squeeze-gap",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0027_squeeze-gap.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "squeeze gap",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0028",
+    "title": "Make the crash through foliage readable",
+    "category": "Spatial",
+    "slug": "break-through",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0028_break-through.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "break through",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0029",
+    "title": "Make arrival in apartment geographically coherent",
+    "category": "Spatial",
+    "slug": "enter-room",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0029_enter-room.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "enter room",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0030",
+    "title": "Make a gap jump visually plausible",
+    "category": "Spatial",
+    "slug": "leap-gap",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0030_leap-gap.md",
+    "status": "designed_unverified",
+    "tags": [
+      "spatial",
+      "leap gap",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0031",
+    "title": "Make the character hesitate before acting",
+    "category": "Emotion",
+    "slug": "hesitation",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0031_hesitation.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "hesitation",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0032",
+    "title": "Show fear without cartoon jitter",
+    "category": "Emotion",
+    "slug": "fear",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0032_fear.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "fear",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0033",
+    "title": "Make him curious about the new world",
+    "category": "Emotion",
+    "slug": "curiosity",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0033_curiosity.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "curiosity",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0034",
+    "title": "Make the relief after the chase feel earned",
+    "category": "Emotion",
+    "slug": "relief",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0034_relief.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "relief",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0035",
+    "title": "Make mother and baby contact tender",
+    "category": "Emotion",
+    "slug": "affection",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0035_affection.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "affection",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0036",
+    "title": "Make a funny delayed reaction",
+    "category": "Emotion",
+    "slug": "comic-surprise",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0036_comic-surprise.md",
+    "status": "designed_unverified",
+    "tags": [
+      "emotion",
+      "comic surprise",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0037",
+    "title": "Make the chase easy to follow",
+    "category": "Cinema",
+    "slug": "track-chase",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0037_track-chase.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "track chase",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0038",
+    "title": "Reveal the dinosaur's size dramatically",
+    "category": "Cinema",
+    "slug": "reveal-threat",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0038_reveal-threat.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "reveal threat",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0039",
+    "title": "Give the cracking egg cinematic importance",
+    "category": "Cinema",
+    "slug": "emphasize-detail",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0039_emphasize-detail.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "emphasize detail",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0040",
+    "title": "Cut between views without teleporting",
+    "category": "Cinema",
+    "slug": "match-action",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0040_match-action.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "match action",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0041",
+    "title": "Use sound to lead the next revelation",
+    "category": "Cinema",
+    "slug": "sound-bridge",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0041_sound-bridge.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "sound bridge",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0042",
+    "title": "Make the baby reveal emotionally powerful",
+    "category": "Cinema",
+    "slug": "silence-payoff",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0042_silence-payoff.md",
+    "status": "designed_unverified",
+    "tags": [
+      "cinema",
+      "silence payoff",
+      "legacy-derived"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-016"
+    ]
+  },
+  {
+    "id": "PRE-0043",
+    "title": "A tiny hatchling makes its first shaky step",
+    "category": "Creature / scale",
+    "slug": "small-biped-first-step",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0043_small-biped-first-step.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "small biped first step"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0044",
+    "title": "A giant dinosaur brakes to a complete stop",
+    "category": "Creature / scale",
+    "slug": "giant-biped-heavy-stop",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0044_giant-biped-heavy-stop.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "giant biped heavy stop"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0045",
+    "title": "A four-legged creature walks naturally",
+    "category": "Creature / scale",
+    "slug": "quadruped-walk",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0045_quadruped-walk.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "quadruped walk"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0046",
+    "title": "A large four-legged animal turns in place",
+    "category": "Creature / scale",
+    "slug": "quadruped-turn",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0046_quadruped-turn.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "quadruped turn"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0047",
+    "title": "A bird takes off from a perch",
+    "category": "Creature / scale",
+    "slug": "bird-takeoff",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0047_bird-takeoff.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "bird takeoff"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0048",
+    "title": "A bird lands on a branch",
+    "category": "Creature / scale",
+    "slug": "bird-landing",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0048_bird-landing.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "bird landing"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0049",
+    "title": "A fish turns underwater",
+    "category": "Creature / scale",
+    "slug": "fish-turn-water",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0049_fish-turn-water.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "fish turn water"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0050",
+    "title": "A snake navigates an obstacle",
+    "category": "Creature / scale",
+    "slug": "snake-slither",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0050_snake-slither.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "snake slither"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0051",
+    "title": "A six-legged insect scurries",
+    "category": "Creature / scale",
+    "slug": "insect-tripod-gait",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0051_insect-tripod-gait.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "insect tripod gait"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0052",
+    "title": "A tentacled creature grips a cup",
+    "category": "Creature / scale",
+    "slug": "octopus-soft-grasp",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0052_octopus-soft-grasp.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "octopus soft grasp"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0053",
+    "title": "A giant creature notices a tiny character",
+    "category": "Creature / scale",
+    "slug": "giant-vs-tiny-eye-contact",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0053_giant-vs-tiny-eye-contact.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "giant vs tiny eye contact"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0054",
+    "title": "A long-tailed creature turns quickly",
+    "category": "Creature / scale",
+    "slug": "tail-counterbalance",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0054_tail-counterbalance.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "tail counterbalance"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0055",
+    "title": "Child-like creature imitates adult walking",
+    "category": "Creature / scale",
+    "slug": "child-vs-adult-gait",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0055_child-vs-adult-gait.md",
+    "status": "designed_unverified",
+    "tags": [
+      "creature / scale",
+      "child vs adult gait"
+    ],
+    "source_ids": [
+      "SRC-002",
+      "SRC-011",
+      "SRC-012"
+    ]
+  },
+  {
+    "id": "PRE-0056",
+    "title": "A protective parent gently nuzzles a baby",
+    "category": "Interaction",
+    "slug": "parent-nuzzles-baby",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0056_parent-nuzzles-baby.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "parent nuzzles baby"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0057",
+    "title": "A character hands a tool to another character",
+    "category": "Interaction",
+    "slug": "prop-handoff-two-hands",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0057_prop-handoff-two-hands.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "prop handoff two hands"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0058",
+    "title": "A small character pushes a large cart",
+    "category": "Interaction",
+    "slug": "push-heavy-cart",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0058_push-heavy-cart.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "push heavy cart"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0059",
+    "title": "A character pulls a stuck object loose",
+    "category": "Interaction",
+    "slug": "pull-stuck-object",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0059_pull-stuck-object.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "pull stuck object"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0060",
+    "title": "Character walks through open doorway",
+    "category": "Interaction",
+    "slug": "door-cross-occlusion",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0060_door-cross-occlusion.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "door cross occlusion"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0061",
+    "title": "Bridge plank bends and snaps under weight",
+    "category": "Interaction",
+    "slug": "object-breaks-under-load",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0061_object-breaks-under-load.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "object breaks under load"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0062",
+    "title": "Loose fabric gets snagged on a branch",
+    "category": "Interaction",
+    "slug": "cloth-caught-on-branch",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0062_cloth-caught-on-branch.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "cloth caught on branch"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0063",
+    "title": "A foot sinks in soft mud",
+    "category": "Interaction",
+    "slug": "foot-sinks-mud",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0063_foot-sinks-mud.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "foot sinks mud"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0064",
+    "title": "Two characters accidentally bump",
+    "category": "Interaction",
+    "slug": "two-characters-collision",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0064_two-characters-collision.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "two characters collision"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0065",
+    "title": "A baby hatches out of an egg",
+    "category": "Interaction",
+    "slug": "egg-hatching",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0065_egg-hatching.md",
+    "status": "designed_unverified",
+    "tags": [
+      "interaction",
+      "egg hatching"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-005",
+      "SRC-007"
+    ]
+  },
+  {
+    "id": "PRE-0066",
+    "title": "A heavy footstep announces unseen creature",
+    "category": "Sound",
+    "slug": "offscreen-footstep-reveal",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0066_offscreen-footstep-reveal.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "offscreen footstep reveal"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0067",
+    "title": "An approaching sound becomes close",
+    "category": "Sound",
+    "slug": "distant-to-near-approach",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0067_distant-to-near-approach.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "distant to near approach"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0068",
+    "title": "Every footstep sounds exactly when it lands",
+    "category": "Sound",
+    "slug": "footstep-matched-contact",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0068_footstep-matched-contact.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "footstep matched contact"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0069",
+    "title": "A dramatic impact is followed by near-silence",
+    "category": "Sound",
+    "slug": "silence-after-impact",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0069_silence-after-impact.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "silence after impact"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0070",
+    "title": "Sound changes when camera moves underwater",
+    "category": "Sound",
+    "slug": "muffled-underwater",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0070_muffled-underwater.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "muffled underwater"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0071",
+    "title": "Tiny hatchling chirps during dangerous chase",
+    "category": "Sound",
+    "slug": "quiet-baby-chirp",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0071_quiet-baby-chirp.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "quiet baby chirp"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0072",
+    "title": "A dinosaur roars toward camera",
+    "category": "Sound",
+    "slug": "roar-dynamic-perspective",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0072_roar-dynamic-perspective.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "roar dynamic perspective"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0073",
+    "title": "Sound foreshadows next scene",
+    "category": "Sound",
+    "slug": "sound-bridge-cut",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0073_sound-bridge-cut.md",
+    "status": "designed_unverified",
+    "tags": [
+      "sound",
+      "sound bridge cut"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0074",
+    "title": "A character looks at a thing, then we see it",
+    "category": "Camera",
+    "slug": "eyeline-match",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0074_eyeline-match.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "eyeline match"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0075",
+    "title": "Reveal a creature as enormous",
+    "category": "Camera",
+    "slug": "size-reveal",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0075_size-reveal.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "size reveal"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0076",
+    "title": "Camera follows a fast moving object",
+    "category": "Camera",
+    "slug": "track-object-flight",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0076_track-object-flight.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "track object flight"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0077",
+    "title": "Cut to character processing information",
+    "category": "Camera",
+    "slug": "reaction-shot",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0077_reaction-shot.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "reaction shot"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0078",
+    "title": "Keep chase direction comprehensible across cuts",
+    "category": "Camera",
+    "slug": "scene-axis-chase",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0078_scene-axis-chase.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "scene axis chase"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0079",
+    "title": "Shift attention from foreground to background",
+    "category": "Camera",
+    "slug": "rack-focus-attention",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0079_rack-focus-attention.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "rack focus attention"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0080",
+    "title": "Use brief camera response to a large impact",
+    "category": "Camera",
+    "slug": "camera-impact-shake",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0080_camera-impact-shake.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "camera impact shake"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0081",
+    "title": "Use brief slow motion at decisive contact",
+    "category": "Camera",
+    "slug": "slow-motion-insert",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0081_slow-motion-insert.md",
+    "status": "designed_unverified",
+    "tags": [
+      "camera",
+      "slow motion insert"
+    ],
+    "source_ids": [
+      "SRC-001"
+    ]
+  },
+  {
+    "id": "PRE-0082",
+    "title": "Open short with urgent visual question",
+    "category": "Story",
+    "slug": "hook-with-stakes",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0082_hook-with-stakes.md",
+    "status": "designed_unverified",
+    "tags": [
+      "story",
+      "hook with stakes"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-004"
+    ]
+  },
+  {
+    "id": "PRE-0083",
+    "title": "Plant a promise and resolve it later",
+    "category": "Story",
+    "slug": "open-loop-payoff",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0083_open-loop-payoff.md",
+    "status": "designed_unverified",
+    "tags": [
+      "story",
+      "open loop payoff"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-004"
+    ]
+  },
+  {
+    "id": "PRE-0084",
+    "title": "A character pauses before a funny surprise",
+    "category": "Story",
+    "slug": "comic-hesitation",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0084_comic-hesitation.md",
+    "status": "designed_unverified",
+    "tags": [
+      "story",
+      "comic hesitation"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-004"
+    ]
+  },
+  {
+    "id": "PRE-0085",
+    "title": "Threat turns into tenderness",
+    "category": "Story",
+    "slug": "emotional-reversal",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0085_emotional-reversal.md",
+    "status": "designed_unverified",
+    "tags": [
+      "story",
+      "emotional reversal"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-004"
+    ]
+  },
+  {
+    "id": "PRE-0086",
+    "title": "End with immediate unresolved physical consequence",
+    "category": "Story",
+    "slug": "ending-cliffhanger",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0086_ending-cliffhanger.md",
+    "status": "designed_unverified",
+    "tags": [
+      "story",
+      "ending cliffhanger"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-004"
+    ]
+  },
+  {
+    "id": "PRE-0087",
+    "title": "Animate layered handmade paper cutouts",
+    "category": "Style",
+    "slug": "paper-cut-rig-depth",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0087_paper-cut-rig-depth.md",
+    "status": "designed_unverified",
+    "tags": [
+      "style",
+      "paper cut rig depth"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-003"
+    ]
+  },
+  {
+    "id": "PRE-0088",
+    "title": "Stylize a high-impact moment with held drawings",
+    "category": "Style",
+    "slug": "anime-impact-hold",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0088_anime-impact-hold.md",
+    "status": "designed_unverified",
+    "tags": [
+      "style",
+      "anime impact hold"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-003"
+    ]
+  },
+  {
+    "id": "PRE-0089",
+    "title": "Animate an elastic cartoon bounce",
+    "category": "Style",
+    "slug": "rubber-hose-bounce",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0089_rubber-hose-bounce.md",
+    "status": "designed_unverified",
+    "tags": [
+      "style",
+      "rubber hose bounce"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-003"
+    ]
+  },
+  {
+    "id": "PRE-0090",
+    "title": "Make small-resolution pixel animation clear",
+    "category": "Style",
+    "slug": "pixel-snap-staging",
+    "path": "03_PRESET_LIBRARY/PRESETS/PRE-0090_pixel-snap-staging.md",
+    "status": "designed_unverified",
+    "tags": [
+      "style",
+      "pixel snap staging"
+    ],
+    "source_ids": [
+      "SRC-001",
+      "SRC-003"
+    ]
+  }
+]

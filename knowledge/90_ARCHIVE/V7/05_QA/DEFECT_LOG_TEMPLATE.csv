@@ -1,0 +1,2 @@
+issue_id,scene_id,shot_id,frame_start,frame_end,severity,gate,expected_action,observed_evidence,root_cause,proposed_fix,regression_test,status,evidence_path
+EXAMPLE-001,S01,A01,,,BLOCKER,STORY,Human emerges from inside portal,NO_RENDER_YET,UNVERIFIED,Produce and inspect actual threshold crossing,Compare consecutive frames at aperture,EXAMPLE_ONLY,

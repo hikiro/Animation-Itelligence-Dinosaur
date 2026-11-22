@@ -1,0 +1,5 @@
+# PROMPT 10 — Final sound, mix, color and export
+
+## Copy into agent
+
+> Verify picture lock and the actual edited film, not just its timeline plan. Run a sound spotting reconciliation against final contact event frames and cut boundaries. Add or revise original/licensed Foley, portal design, mother breath/roar, baby chirps, consistent ambience, planned score and sound bridges. Mix for clarity, emotion and a YouTube/phone destination, listening on headphones, smartphone speaker and mono. Measure peaks/true peak/loudness range/integrated loudness but do not invent a platform-mandated LUFS value. Confirm stereo file and distinct editable stems. Export according to current YouTube upload guidance: progressive 1080×1920, 30fps, compatible MP4, SDR BT.709 where applicable, AAC-LC/compatible audio at 48kHz; avoid unnecessary multiple lossy reencodes. Inspect opening/middle/end actual output and play full video including the final audio. Produce media-probe report, mix meter report and export commands; any missing audio/visual evidence leaves delivery unapproved.

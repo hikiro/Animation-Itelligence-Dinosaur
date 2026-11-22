@@ -1,0 +1,15 @@
+{
+  "note": "Planning template, not observed state",
+  "scene_id": "S01",
+  "shot_id": "A01",
+  "end_frame_exclusive": 270,
+  "human": {"position": null,"facing": "EAST","inside_portal": false,"feet_contact": [],"holding": null},
+  "mother": {"position": "OFFSCREEN_EAST","awareness": "UNKNOWN_TO_HUMAN"},
+  "baby": {"state": "INSIDE_EGG"},
+  "egg": {"state": "IN_NEST","owner": "NEST"},
+  "portal": {"state": "OPEN_PASSABLE","grounded": true},
+  "camera": {"world_to_view_transform": null,"axis_side": "INITIAL_LOCK"},
+  "audio": {"location": "FOREST","ambience": "ONGOING","music_state": "SPARSE"},
+  "verified": false,
+  "source_render": null
+}

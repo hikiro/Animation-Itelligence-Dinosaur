@@ -1,0 +1,5 @@
+# PROMPT 09 — Per-shot production and dependency regression
+
+## Copy into agent
+
+> Produce the next unapproved shot only. Read its latest approved shot card, upstream/downstream actor/prop/audio state, rig specs and open defects. First block main poses, then refine physics, contact/occlusion and gaze, then camera and color, then secondary motions and editorial/audio cues. Implement only changes supported by story context. Render the actual shot and sample sequential frames around contact and action changes. Perform motion/physical, story, camera and audio review; log every observation with frame evidence and severity. On repair, rerender and regression-check: (a) same shot earlier/later events, (b) preceding cut continuity, (c) following shot entry state, (d) audio cue/event mapping, (e) safe areas, (f) finished rig identity. Only mark shot approved with zero blockers/majors. Repeat for all remaining shots. Do not reanimate a frozen benchmark component without a named dependency reason, before/after evidence, and explicit regression.
